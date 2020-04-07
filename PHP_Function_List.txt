@@ -1,0 +1,322 @@
+   abs()   절대값을 리턴한다  
+   acos()   라디안으로 주어진 값을 아크코사인값을 리턴한다
+   addcslashes()   문자열앞에 역슬레쉬를 추가한다
+   addslashes()   ',",\ 앞에 역슬래쉬를 추가한다
+   array()   배열을 만든다
+   array_count_values()   배열안의 매게변수와 동일한 값이 몇번들어있는지 리턴한다
+   array_flip()   배열의 키와값을 바꾼다
+   array_keys()   배열의모든키를 반환한다.
+   array_merge()   두개이상의 배열을 합칩니다.
+   array_pad()   새로운요소를 추가합니다.
+   array_pop()   배열의 마지막요소를 삭제하고 리턴합니다.
+   array_push()   배열의 마지막에 하나이상의 요소를 추가합니다.
+   array_reverse()   배열을 역순으로 뒤바꿉니다.
+   array_shift()   배열의 처음요소를 없애고 리턴한다.
+   array_splice()   배열의 일부분을 대체한다.
+   array_unshift()   배열맨앞에 하나이상의 요소를 추가합니다.
+
+
+   array_values()   키값을제외하고 값을 배열로 반환한다.
+   array_walk()   배열의 모든요소에 함수를 적용한다.
+   arsort()   키와값의 관계를 유지하고 값의역순으로 정렬한다.
+   asin()   라디안값을 아크사인값으로 리턴한다.
+   asort()   키와값의 관계를 유지하면서 값을 정렬한다.
+   atan()   라디안값을 아크탄젠트값으로 리턴한다.
+   atan2()   y/x 의 아크탄젠트값을 리턴한다.
+   base64_decode()   MINE base64로 인코딩된 것을 디코딩한다.
+   base64_encode()   MINE base64로 인코딩한다.
+   basename()   파일경로에서 파일이름만 반환한다.
+   base_convert()   진법을 변환한다.
+   bin2hex()   2진수를 16진수로 반환한다.
+   bindec()   2진수인 인자를 10진수로 리턴한다.
+   ceil()   메게변수의 올림값을 리턴한다
+
+   checkdnsrr()   인터넷 호스트 네임이나 IP 어드레스에 대응되는 DNS 레코드를 체크함
+   chgrp()   파일그룹을 변경한다.
+   chmod()   파일모드를 변경한다.
+   chop()   뒤쪽공백을 제거한다.
+   chown()   파일소유자를 변환한다.
+   chr()   아스키에 해당하는 문자를 리턴한다.
+   chunk_split()   문자열을 작은 문자열로 분할한다.
+   clearstatcache()   파일 상태캐시를 삭제한다.
+   compact()   변수의 이름과 값을 가지는 배열을 만든다.
+   convert_cyr_string()   키릴문자셋을 다른문자로 변환한다.
+   copy()   파일을 복사한다.
+   cos()   코사인값을 리턴한다.
+   count()   변수의 개수를 리턴합니다.
+   crc32()   문자열로된 CRC32 다항식을 계산한다.
+   crypt()   문자열을 DES 암호화방법으로 암호화한다.
+
+   current()   포인터가 가르키는 값을 리턴합니다
+   date()   주어진 함수의 타임스탬프를 지정한 포맷으로 변환한다
+   decbin()   메게변수 10진수를 2진수로 리턴한다
+   dechex()   16진수로 리턴한다
+   decoct()   8진수로 리턴한다
+   deg2rad()   각도를 동일한 라디안값으로 구한다
+   dirname()   주어진 경로의 디렉토리 목록을 반환한다.
+   diskfreespace()   디렉토리의 사용가능한 용량을 리턴한다
+   doubleval!!()   변수의 실수(double)값을 구한다
+   each()   포인터가 가르키는 키와값을 리턴한다
+   echo()   문자열을 출력한다.
+   empty()   변수의 설정여부를 리턴한다.
+   end()   포인터를 마지막으로 옮긴다.
+   exp()   자연대수 2의 arg승을 구한다
+   explode()   문자열은 분리해서 배열로반 환한다
+
+   extract()   배열에서 키와값을 변수와값으로 추출한다
+   fclose()   열려진 파일을 닫는다.
+   feof()   파일포인터가 끝에 있는지 검사한다
+   fgetc()   파일포인터의 한문자를 반환한다.
+   fgetcsv()   한줄을 읽고 CSV에 맞게 변환한다.
+   fgets()   지정된 파일에서 한 줄을 읽어온다
+   floor()   내림값을 리턴한다
+   getimagesize()   gif,jpg,png의 이미지크기를 반환한다
+   getrandmax()   rand()함수에의한 리턴값의 최대를 리턴한다
+   gettype()   인자로 사용된 변수의 타입을 리턴한다
+   get_html_translation_table()   내부적으로 사용된 변환테이블을 반환한다
+   get_meta_tags()   파일에서 메타테그를 추출해배열로 반환한다
+   hexdec()   16진수를 10진수로 리턴한다
+   htmlentities()   해당되는 모든문자를 HTML엔티티형태로 변환한다
+   htmlspecialchars()   특수문자를 HTML엔티티형태로 바꾼다
+
+   imagearc()   타원을 그린다.
+   imagechar()   수평으로 한문자를 그린다
+   imagecolorallocate()   이미지에 색을 할당한다
+   imagecolorat()   이미지 픽셀의 색을 리턴한다
+   imagecolorclosest()   비슷한 색을 리턴한다
+   imagecolorexact()   특정색과 같은색을 리턴한다
+   imagecolorresolve()   같은,대체할수있는 가까운색을 리턴한다
+   imagecolorset()   index을 지정한 rgb로 대체한다
+   imagecolorsforindex()   index의 rgb값을 배열로 리턴한다
+   imagecolorstotal()   색의 갯수를 리턴한다
+   imagecolortransparent()   색을 투명하게 바꾼다
+   imagecopyresized()   이미지의 부분을 복사하고 크기조정을 한다
+   imagecreate()   새로운 이미지를 생성한다
+   imagecreatefromgif()   파일로부터 이미지 id를 리턴한다
+   imagedashedline()   점선을 그린다.
+
+   imagedestroy()   이미지id를 없앤다
+   imagefill()   색으로 채운다
+   imagefilledpolygon()   다각형을 그린다.
+   imagefilledrectangle()   직사각형을 그린다
+   imagefilltoborder()   col색으로채운다
+   imagefontheight()   폰트의 높이를 리턴한다.
+   imagefontwidth()   폰트의 넓이를 리턴한다.
+   imagegif()   브라우저나 파일로 gif형식으로 출력한다.
+   imageinterlace()   인터레스의 기능을 on,off한다.
+   imageline()   선을 그립니다.
+   imageloadfont()   새로운 폰트를 불러온다.
+   imagepolygon()   다각형을 그린다
+   imagepsbbox()   포스트스크립타입1의 글꼴을 사용해 텍스트경계를지정한다
+   imagepsencodefont()   글꼴의 문자 인코딩 벡터를 변경한다
+   imagepsfreefont()   포스트스크립타입1폰트를 위해 사용된 메모리를해제한다
+
+   imagepsloadfont()   파일로부터 포스트스크립타입1글꼴을 로드한다
+   imagepstext()   이미지에 포스트스크립타입1글꼴로 문자열을 그린다
+   imagerectangle()   사각형을 그린다
+   imagesetpixel()   지정된 좌표에 픽셀 한개를 출력한다
+   imagestring()   문자열을 가로로 그린다
+   imagestringup()   문자열을 세로로 그린다
+   imagesx()   이미지의 가로크기를 구한다
+   imagesy()   이미지의 세로크기를 구한다
+   ImageTTFBBox()   트루타입글꼴의 경계 영역을 계산해 반환한다
+   ImageTTFText()   트루타입글꼴로 문자열을 출력한다
+   implode()   지정된문자를포함해 배열을 하나의 문자열로 연결한다
+   intval()   변수가 가지고 있는 정수값을 리턴한다
+   in_array()   배열에서 needle을 찾아서 있으면 true, 없으면 false를 리턴한다
+   isset()   변수의 설정 여부 확인
+   is_array()   배열여부 확인
+
+   is_double ()   인자의 타입이 Double형배열인지 확인
+   is_float()   인자의 타입이 float형인지 확인
+   is_int()   인자의 타입이 int형인지 확인
+   is_integer ()   인자의 타입이 integer형인지 확인
+   is_long()   인자의 타입이 long형인지 확인
+   is_object()   인자가 객체인지 확인
+   is_real()   인자의 타입이 double형인지 확인
+   is_string()   인자로 사용된 변수가 문자열인지 확인
+   join()   impolde()함수와 동일
+   key()   포인터가 가르키는 위치의 키값을 리턴한다
+   krsort()   배열을 키값의 역순으로 정렬합니다.
+   ksort()   배열의키값을기준으로 정렬합니다.
+   list()   변수를 배열처럼 사용한다
+   log()   자연로그값을 리턴한다
+   log10()   상용로그값을 리턴한다
+
+   ltrim()   문자열의 앞부분에 있는 공백 문자를 제거한다.
+   max()   인자들중 가장큰 값을 리턴한다
+   md5()   문자열의 MD5 해시를 계산한다
+   metaphone()   문자열의 메타폰키를 계산한다
+   min()   인자들중 가장작은값을 리턴한다
+   mktime()   주어진 날짜를 타임스탬프로 변환한다.
+   mssql_bind   저장프로시져 또는 원격저장프로시져의 인자를 추가한다
+   mssql_close   디비연결을 닫는다
+   mssql_connect   int mssql_connect ( [string servername [, string username [, string password]]])
+   mssql_data_seek   결과에서 row_number 로 열을 이동한다.
+   mssql_execute   프로시져를 실행한다
+   mssql_fetch_array   mysql_fetch_array와 동일
+   mssql_fetch_assoc   Returns an associative array of the current row in the result set specified by result_id
+   mssql_fetch_batch   Returns the next batch of records
+   mssql_fetch_field   Get field information
+                          The properties of the object are:
+                          name - column name. if the column is a result of a function, this property is set to computed#N, where #N is a serial number.
+
+                          column_source - the table from which the column was taken
+
+                          max_length - maximum length of the column
+
+                          numeric - 1 if the column is numeric
+
+                          type - the column type.
+
+
+   mssql_fetch_object   Fetch row as object
+                           이 함수가 반환하는 필드 이름은 대소문자를 구별합니다.
+   mssql_fetch_row   Get row as enumerated array
+                        Subsequent call to mssql_fetch_row() would return the next row in the result set, or FALSE if there are no more rows.
+   mssql_field_length
+   mssql_field_name   Get the name of a field
+   mssql_field_seek   Seeks to the specified field offset
+                         Seeks to the specified field offset. If the next call to mssql_fetch_field() won't include a field offset, this field would be returned.
+   mssql_field_type   Gets the type of a field
+   mssql_free_result   Free result memory
+                          mssql_free_result() only needs to be called if you are worried about using too much memory while your script is running. All result memory will automatically be freed when the script ends. You may call mssql_free_result() with the result identifier as an argument and the associated result memory will be freed.
+   mssql_free_statement   Free statement memory
+                             mssql_free_statement() only needs to be called if you are worried about using too much memory while your script is running. All statement memory will automatically be freed when the script ends. You may call mssql_free_statement() with the statement identifier as an argument and the associated statement memory will be freed.
+   mssql_get_last_message   Returns the last message from the server
+   mssql_guid_string   Converts a 16 byte binary GUID to a string
+   mssql_init   Initializes a stored procedure or a remote stored procedure
+   mssql_min_error_severity   Sets the lower error severity
+   mssql_min_message_severity   Sets the lower message severity
+   mssql_next_result   Move the internal result pointer to the next result
+   mssql_num_fields   Gets the number of fields in result
+
+
+   mssql_num_rows   Gets the number of rows in result
+   mssql_pconnect   Returns: A positive MS SQL persistent link identifier on success, or FALSE on error.
+                       This type of links is therefore called 'persistent'.
+   mssql_query   Send MS SQL query
+   mssql_result   returns the contents of one cell from a MS SQL result set. The field argument can be the field's offset, the field's name or the field's table dot field's name (tablename.fieldname). If the column name has been aliased ('select foo as bar from...'), it uses the alias instead of the column name.
+                     When working on large result sets, you should consider using one of the functions that fetch an entire row (specified below). As these functions return the contents of multiple cells in one function call, they're MUCH quicker than mssql_result(). Also, note that specifying a numeric offset for the field argument is much quicker than specifying a fieldname or tablename.fieldname argument.
+   mssql_rows_affected   Returns the number of records affected by the query
+   mssql_select_db   Select MS SQL database
+   mt_getrandmax()   mt_rand()에 의해 리턴될 수 있는 최대값을 리턴한다
+   mt_rand()   난수를 리턴한다
+   mt_srand()   난수발생기를 초기화한다
+   mysql_affected_rows()   최근 궈리작업으로 처리된 행의 수를 구한다.
+   mysql_change_user()   사용자를 변경한다.
+   mysql_close()   연결을 닫는다.
+   mysql_connect()   서버에 접속한다.
+   mysql_create_db   데이터베이스를 생성한다.
+   mysql_data_seek()   내부적인 결과 포인트를 이동한다.
+
+   mysql_db_query()   질의를 전송한다.
+   mysql_drop_db()   데이터베이스를 삭제한다.
+   mysql_fetch_array()   쿼리 결과배열은 한줄씩 리턴한다.
+   mysql_fetch_field()   결과로부터 열 정보를 얻어서 객체로 반환한다.
+   mysql_fetch_lengths()   결과로부터 가 출력의 길이를 반환한다.
+   mysql_fetch_object()   행의 결과를 객체로 반환한다.
+   mysql_fetch_row()   쿼리결과를 한행씩 스칼라 배열로 리턴한다.
+   mysql_field_flags()   특정 필드의 flag 들을 구한다
+   mysql_field_len()   특정 필드의 길이를 리턴한다.
+   mysql_field_name()   결과로부터 특정 필드 이름을 반환한다.
+   mysql_field_seek()   특정 필드의 오프셋으로 위치를 이동한다.
+   mysql_field_table()   특정 필드의 table의 이름을 리턴한다
+   mysql_field_type()   특정 필드의 type을 리턴한다
+   mysql_free_result()   인자값을 메모리에서 지웁니다.
+   mysql_insert_id()   삽입에 의해 생성된 인덱스넘버를 리턴한다
+
+   mysql_list_dbs()   DB 리스트를 구한다.
+   mysql_list_fields ()   필드의 리스트를 구한다.
+   mysql_list_tables()   DB내의 테이블 리스트의 포인터를 리턴한다.
+   mysql_num_fields()   쿼리결과내의 필두수를 리턴한다.
+   mysql_num_rows()   질의결과의 행수를 리턴한다.
+   mysql_pconnect()   디비서버에 지속적인 연결을한다.
+   mysql_query()   질의 보낸다.
+   mysql_result()   결과에서 데이터를 구한다.
+   mysql_select_db()   사용할 디비를 선택한다.
+   mysql_tablename()   테이블명을 리턴한다.
+   next()   배열의 다음포인터로 이동하여 값을 리턴한다
+   nl2br()   개행문자를 <BR>태그로 변환한다.
+   number_format()   수의 주어진 일정한 형식으로 리턴한다
+   octdec()   8진수를 10진수로 리턴한다
+   ord()   문자열에 있는 첫번째 문자의 ASCII 코드 값을 변환한다.
+
+   parse_str()   문자열을 변수로 해석한다
+   parse_url()   URL을 해석해서 각 구성요소를 반환한다.
+   pi()   파이값을 구한다
+   pos()   배열릐 포인터가 가르키는 값을 리턴한다
+   pow()   base의 exp승을 리턴한다
+   prev()   포인터를 앞으로 이동한후 값을 리턴한다
+   print()   문자열을 출력
+   printf()   지정된 형식에 맞게 문자열을 출력한다.
+   quoted_printable_decode()   문자열을 8비트 문자열로 변환한다.
+   quotemeta()   문자열에 .\\+*?[^]($)등의 메타문자앞에\를추가한다
+   rand()   난수를 발생한다
+   range()   low부터 high까지의 정수들의 배열을 리턴한다
+   rawurldecode()   URL로 인코딩된문자열을 디코딩한다
+   rawurlencode()   RFC1738에 따라서 URL을 인코딩한다.
+   reset()   배열의 포인터를 맨처음으로 이동하여 값을 리턴한다
+
+   round()   반올림값을 리턴한다
+   rsort()   배열의 값을 기준으로 역순정렬합니다
+   rtrim()   문자열 끝에 있는 공백 문자, 개행문자를 제거한다.
+   session_decode()   암호화된 문자열을 세션데이터로 해석한다
+   session_destroy()   생성된 모든 세션을 파괴한다
+   session_encode()   세션 데이터를 문자열로 인코딩한다
+   session_id()   세션 아이디를 구하거나 변경한다.
+   session_is_registered()   인자가 세션에 등록되었는지 검사
+   session_module_name()   현재 세션요소를 구하거나 변경한다
+   session_name()   세션의 이름을 설정한다.
+   session_register()   현재 세션에 변수들을 등록한다.
+   session_save_path()   현재 세션의 저장경로를 구하거나 변경한다
+   session_start()   Session을 시작
+   session_unregister()   등록된 변수를 제거한다.
+   setlocale()   지역정보를 저장한다.
+
+   settype()   변수 타입 설정
+   shuffle()   배열을 랜덤하게 섞는다
+   similar_text()   두 문자열사이의 유사성을 계산한다
+   sin()   사인값을 리턴한다
+   sizeof()   배열요소의 갯수를 반환한다.
+   sort()   배열을 값을기준으로 순서대로 정렬합니다.
+   soundex()   문자열의 soundex키를 계산한다
+   sprintf()   지정된 출력형식문자열을 반환한다.
+   sqrt()   제곱근을 리턴한다
+   srand()   난수발생기를 초기화한다
+   strcasecmp()   대소문자를 구분하지 않고 문자열을 비교한다
+   strchr()   문자열에서 지정한 문자가 처음위치한부분부터반환한다.
+   strcmp()   대소문자를 구분해서 두 문자열을 비교한다.
+   strcspn()   마스크가 맞지 않는 초기 세크먼트의 길이를 반환한다
+   stripcslashes()   addcslashes()로 쿼트된 문자열을 언쿼트한다
+
+   stripslashes()   addslashes()로 쿼트된 문자열을 언쿼트한다
+   strip_tags()   문자열로 부터 HTML, 태그를 제거한다.
+   stristr()   대소문자를구별않고 needle과 일치한부분부터리턴한다
+   strlen()   문자열의 길이를 반환한다.
+   strpos()   문자열에서 특정문자열이 있는 처음위치를 반환한다
+   strrchr()   지정한 문자열이 있는 마지막의 위치부터 반환한다
+   strrev()   문자열을 뒤집는다.
+   strrpos()   needle이 마지막으로 나타나는위치를 반환한다.
+   strspn()   마스크에 일치하는 초기 세그먼트의 길이를 찾는다.
+   strstr()   대소문자를구분하여 needle와 일치하는부분부터 반환한다.
+   strtok()   문자열을 토큰화한다.
+   strtolower()   문자열을 소문자로 변환한다.
+   strtoupper()   영문자를 대문자로 변환한다.
+   strtr()   특정문자를 번역한다.
+   strval()   값을 문자열로 변환
+
+   str_repeat()   문자열을 지정한 횟수만큼 반복한다.
+   str_replace()   subject에서 search를 replace로 대체한다.
+   substr()   문자열의 일부분을 짤라서 반환한다.
+   substr_replace()   문자열 일부만 지정된문자로 치환한다.
+   tan()   탄젠트값을 리턴한다
+   trim()   문자열의 앞뒤의 공백문자를 제거한다.
+   uasort()   키,값을 유지하고 지정함수를 사용해 정렬합니다.
+   ucfirst()   첫글자가 알파벳이면 첫문자만 대문자로 변환한다
+   ucwords()   문자열의 각 단어의 첫글자를 대문자로 바꾼다.
+   uksort()   키,값을 유지하고 지정함수를 이용 키값에 따라 정렬한다.
+   unset()   변수의 설정을 해제
+   urldecode()   인코딩된 URL문자열을 디코딩한다.
+   urlencode()   문자열을 URL 인코딩한다.
+   usort()   함수를 배열값에 적용하여 정렬합니다
